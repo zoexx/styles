@@ -1,0 +1,28 @@
+
+/* touch gray background*/
+input[type="text"],input[type="tel"],input[type="password"]{
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+.touch-scroll{
+    -webkit-overflow-scrolling : touch;
+    overflow: auto;
+}
+
+span.loading {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 4px solid transparent;
+    width: 40px;
+    height: 40px;
+    margin: -2px 30px;
+    vertical-align: middle;
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+    border-radius: 100%;
+    -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+    animation: rotate-loading 1.5s linear 0s infinite normal; 
+    border-left-color: rgb(0, 152, 212);
+    border-right-color: rgb(0, 152, 212);
+}
