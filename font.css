@@ -1,0 +1,11 @@
+/*some beautiful character font set */
+
+*{
+  font-family:'Skolar Italic',"Roboto Slab","Droid Serif",Cambria,Georgia,"Times New Roman",Times,serif ;
+}
+
+/*some useful chinese font set */
+
+*{
+  font-family:-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
