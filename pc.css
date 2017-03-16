@@ -1,0 +1,7 @@
+.scroll-area{
+/* IE: https://msdn.microsoft.com/en-us/library/hh771902(v=vs.85).aspx */
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  width: 15px;
+} /* this targets the default scrollbar (compulsory) */
